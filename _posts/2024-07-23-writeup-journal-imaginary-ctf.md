@@ -7,7 +7,7 @@ title: Journal - Imaginary CTF 2024
 
 # PHP Source Code
 
-This was the source code of the php server. I do not know php I could not see the obvious vulnerability.
+This was the source code of the php server. I do not know php so I could not see the obvious vulnerability.
 
 
 ```php
@@ -37,27 +37,27 @@ if (isset($_GET['file'])) {
 echo "</p>";
 ```
 
-I intially tried accessing the flag without using `..`. On hacktricks I found few ways but none of them worked.
+I intially tried accessing the flag without using `..`. On hacktricks I found a few ways that could happend but none of them worked.
 
 # The RCE
 
-Then it clicked to me how assert is taking the code as a string and executing it and the file name is being passed to it.
+Then it clicked to me, how assert is taking the code as a string and executing it and the file name is being passed to it.
 Googling this, I found that hacktricks has [the same code as example](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert) but their payload was not working for me. So I tried to make my own payload.
 
 ```php
-', '1')or die(system('cat /flag*.txt'))or strpos('
+', '1') or die(system('cat /flag*.txt'))or strpos('
 ```
 
 # Break Down
 
 - `', '1')` is to close the string and strpos function.
-- `or die(system('cat /flag*.txt'))` is to execute the command and print the output. `or` is used because `strpos` returns false adn tehn `or` short circuits to execute the next command `die`.
+- `or die(system('cat /flag*.txt'))` is to print the flag. `or` is used because `strpos` returns false and then `or` short circuits to execute the next command `die`.
 - `or strpos('` is to prevent the (syntax iirc) error from being thrown by.
 
 After the format string being filled the code inside the `assert` function looks like this:
 
 ```php
-strpos('', '1')or die(system('cat /flag*.txt'))or strpos('e', '..') === false
+strpos('', '1') or die(system('cat /flag*.txt'))or strpos('e', '..') === false
 ```
 
 **Thanks to the organizers for the challenge I really enjoyed the ctf, especially this challenges.**
