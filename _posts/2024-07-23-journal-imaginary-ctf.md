@@ -42,7 +42,7 @@ I intially tried accessing the flag without using `..`. On hacktricks I found a 
 # The RCE
 
 Then it clicked to me, how assert is taking the code as a string and executing it and the file name is being passed to it.
-Googling this, I found that hacktricks has [the same code as example](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert) but their payload was not working for me. So I tried to make my own payload.
+Googling this, I found that hacktricks has [the same code as example](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert) but their payload was not working for me. So I crafted my own payload.
 
 ```php
 ', '1') or die(system('cat /flag*.txt'))or strpos('
