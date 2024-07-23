@@ -3,7 +3,7 @@ title: Journal - Imaginary CTF 2024
 ---
 
 
-*This is my first ctf challenge writeup.*
+*This is my first writeup regarding a ctf challenge.*
 
 # PHP Source Code
 
