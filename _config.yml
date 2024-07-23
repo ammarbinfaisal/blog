@@ -31,6 +31,10 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mmistakes"
 
+twitter:
+  username: ammar
+  card: summary
+
 defaults:
   # _posts
   - scope:
