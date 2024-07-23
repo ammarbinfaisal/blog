@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Ammar's Cyber Security Adventure"
+title: "Ammar's Blog"
 classes: wide
 ---
 
