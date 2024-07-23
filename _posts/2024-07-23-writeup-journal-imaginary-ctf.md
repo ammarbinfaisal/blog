@@ -7,6 +7,9 @@ title: Journal - Imaginary CTF 2024
 
 # PHP Source Code
 
+This was the source code of the php server. I do not know php I could not see the obvious vulnerability.
+
+
 ```php
 <?php
 
@@ -33,8 +36,6 @@ if (isset($_GET['file'])) {
 
 echo "</p>";
 ```
-
-This was the source code of the php server. I do not know php I could not see the obvious vulnerability.
 
 I intially tried accessing the flag without using `..`. On hacktricks I found few ways but none of them worked.
 
