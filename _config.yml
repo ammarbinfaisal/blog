@@ -1,0 +1,26 @@
+url: https://ammarfaisal.me
+baseurl: ""
+title: "0xz4h1d" # the name of your site, e.g. ACME Corp.
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: sunrise
+repository: "ammarbinfaisal/blog"
+logo: "/assets/img.jpg"
+breadcrumbs: true 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      breadcrumbs: false
+      layout: single
+      share: true
+    # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
