@@ -2,7 +2,6 @@
 title: Experience Making TUIs
 ---
 
-﷽
 
 ## My Journey with Terminal User Interfaces: From Todo App to Vim Clone
 

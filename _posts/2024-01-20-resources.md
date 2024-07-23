@@ -2,7 +2,6 @@
 title: Resources to study Compilers/PLs
 ---
 
-﷽
 
 ## Basics
 - [Crafting Interpreters](https://craftinginterpreters.com/)

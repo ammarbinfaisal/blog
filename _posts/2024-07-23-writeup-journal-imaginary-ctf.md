@@ -2,7 +2,6 @@
 title: Journal - Imaginary CTF 2024
 ---
 
-﷽
 
 *This is my first ctf challenge writeup.*
 

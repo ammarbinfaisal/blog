@@ -2,3 +2,7 @@
 
 @import "minimal-mistakes/skins/sunrise"; // skin
 @import "minimal-mistakes"; // main partials
+
+html, body {
+  font-family: "Noto Sans", sans-serif !important;
+}

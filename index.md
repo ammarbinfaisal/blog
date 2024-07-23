@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Ammar's Cyber Security Adventure"
+classes: wide
 ---
 
 ## Who am I?
