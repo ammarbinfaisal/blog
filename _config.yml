@@ -6,6 +6,9 @@ minimal_mistakes_skin: aqua
 repository: "ammarbinfaisal/blog"
 logo: "/assets/img.jpg"
 
+plugins:
+  - jekyll-seo-tag
+
 author:
   name     : "Ammar Faisal"
   avatar   : "/assets/img.jpg"
