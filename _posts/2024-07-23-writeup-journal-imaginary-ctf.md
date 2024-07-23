@@ -59,5 +59,5 @@ After the format string being filled the code inside the `assert` function looks
 strpos('', '1')or die(system('cat /flag*.txt'))or strpos('e', '..') === false
 ```
 
-**Thanks to the organizers for the challenge I really enjoyed the ctf for the few hours I played and loved this challenge.**
+**Thanks to the organizers for the challenge I really enjoyed the ctf, especially this challenges.**
 
