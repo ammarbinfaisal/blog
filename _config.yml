@@ -2,7 +2,7 @@ url: https://ammarfaisal.me
 baseurl: ""
 title: "0xz4h1d" # the name of your site, e.g. ACME Corp.
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: aqua
+minimal_mistakes_skin: sunrise
 repository: "ammarbinfaisal/blog"
 logo: "/assets/img.jpg"
 
