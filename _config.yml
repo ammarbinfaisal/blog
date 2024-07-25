@@ -10,9 +10,9 @@ plugins:
   - jekyll-seo-tag
 
 author:
-  name     : "Ammar Faisal"
+  name     : "Malik Ammar Faisal"
   avatar   : "/assets/img.jpg"
-  bio      : "developer, security enthusiast, and a student"
+  bio      : "developer, security enthusiast"
   location : "New Delhi, India"
 
 social:
@@ -21,18 +21,10 @@ social:
   links:
     - "https://twitter.com/0xz4h1d"
     - "https://github.com/ammarbinfaisal"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+    - "https://youtube.com/@ammarbinfaisal"
 
 twitter:
-  username: ammar
+  username: 0xz4h1d
   card: summary
 
 defaults:
@@ -55,3 +47,4 @@ defaults:
     values:
       layout: single
       classes: wide
+      author_profile: true
