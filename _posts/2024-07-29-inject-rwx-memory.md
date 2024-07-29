@@ -8,7 +8,7 @@ _ _
 
 ![maldev 101](/assets/maldev-1.png)
 
-A technique malware authors use to execute their code in the context of another process is to inject their shellcode into an `RWX` memory region of the target process and spawn a thread impersonating that process. In this post, we will see how to do that.
+A technique malware authors use to execute their code in the context of another process is to inject their shellcode into an `RWX` memory region of the target process a spawn a thread impersonating that process. In this post, we will see how to do that.
 
 `RWX` stands for Read-Write-Execute. In this scenario, we are looking for a memory region in a running process with all three permissions: Read, Write, and Execute.
 
