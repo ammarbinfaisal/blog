@@ -2,7 +2,7 @@
 title: Shellcode Injection into RWX Memory of a Running Process
 ---
 
-_ _
+Ever wondered how to inject shellcode into an RWX memory region of a running process on Windows using rust? I hope not, but here's how you can do it anyway.
 
 ## Introduction
 
