@@ -13,7 +13,7 @@ A technique malware authors use to execute their code in the context of another 
 `RWX` stands for Read-Write-Execute. In this scenario, we are looking for a memory region in a running process with all three permissions: Read, Write, and Execute.
 
 The basic idea is to enumerate the running processes and find an `RWX` memory region in the target process.
-When we find an `RWX` memory region, we allocate the memory inside it using [`VirtualAllocEx`](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex) and write the shellcode into it using [`WriteProcessMemory`](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory).
+When we find an `RWX` memory region, we write the shellcode into it using [`WriteProcessMemory`](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory) and create a remote thread in the target process that starts executing the shellcode using [`CreateRemoteThread`](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread).
 
 ## Finding the RWX Memory Region
 
