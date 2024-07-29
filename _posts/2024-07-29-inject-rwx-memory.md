@@ -2,13 +2,13 @@
 title: Shellcode Injection into RWX Memory of a Running Process
 ---
 
-_Ever wondered how to inject shellcode into an RWX memory region of a running process on Windows using rust? I hope not, but here's how you can do it anyway._
+_ _
 
 ## Introduction
 
 ![maldev 101](/assets/maldev-1.png)
 
-A technique malware authors use to execute their code in the context of another process is to inject their shellcode into an `RWX` memory region of the target process. In this post, we will see how to do that.
+A technique malware authors use to execute their code in the context of another process is to inject their shellcode into an `RWX` memory region of the target process adn spawn a thread impersonating that process. In this post, we will see how to do that.
 
 `RWX` stands for Read-Write-Execute. In this scenario, we are looking for a memory region in a running process with all three permissions: Read, Write, and Execute.
 
@@ -74,7 +74,7 @@ let mut address: *mut winapi::ctypes::c_void = ptr::null_mut();
 let mut success = false;
 ```
 
-In this portion, we open the process using [`OpenProcess`](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess) with rights. `PROCESS_ALL_ACCESS` means "All possible access rights for a process object."
+In this portion, we open the process using [`OpenProcess`](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess) with `PROCESS_ALL_ACCESS` rights. `PROCESS_ALL_ACCESS` means "All possible access rights for a process object."
 
 Then, we get the process name using [`GetModuleBaseNameW`](https://learn.microsoft.com/en-us/windows/win32/api/psapi/nf-psapi-getmodulebasename) and print it along with the process ID just as a debug message.
 
