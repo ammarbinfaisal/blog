@@ -1,6 +1,6 @@
 # Cracking Twitter's CAPTCHA: A Guide
 
-I recently got a client on upwork who wanted me to automate twitter signup process, and boy, do I have some stories to share. After countless hours of debugging, several facepalm moments, and way too much coffee, I finally got it working reliably. Here's everything I learned about handling Twitter's CAPTCHAs - hopefully it'll save you some headaches!
+I recently got a client on upwork who wanted me to automate twitter signup process especially the part of solving the funcaptcha, and boy, do I have some stories to share. After countless hours of debugging, several facepalm moments, and way too much coffee, I finally got it working reliably. Here's everything I learned about handling Twitter's CAPTCHAs - hopefully it'll save you some headaches!
 
 ## The Initial Struggle
 
