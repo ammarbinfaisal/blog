@@ -1,5 +1,5 @@
 ---
-title: Automating Quora Answer Formatting with Playwright and Marked.js
+title: Automating Quora Answers with Playwright and Marked.js
 ---
 
 I once got a client on upwork who wanted me to automate qoura posts.
