@@ -56,6 +56,7 @@ async def solve_captcha(self):
 
 This part had me pulling my hair out. Just getting the token isn't enough - you need to submit it correctly. After many failed attempts, here's what actually works:
 
+{% raw %}
 ```python
 await frame.evaluate(f"""
     const message = {{
@@ -74,7 +75,7 @@ await frame.evaluate(f"""
         }}
     }});
 """)
-```
+{% endraw %}
 
 ## Things I Wish I Knew Earlier
 
