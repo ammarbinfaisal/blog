@@ -3,9 +3,10 @@ title: Automating Quora Answers with Playwright and Marked.js
 ---
 
 I once got a client on upwork who wanted me to automate qoura posts.
-By combining **Playwright**, **Marked.js**, and a bit of JavaScript, I built a script that takes Markdown content and formats it perfectly for Quora. Let me walk you through how it works.
 
----
+--- 
+
+By combining **Playwright**, **Marked.js**, and a bit of JavaScript, I built a script that takes Markdown content and formats it perfectly for Quora. Let me walk you through how it works.
 
 ## The Problem
 
