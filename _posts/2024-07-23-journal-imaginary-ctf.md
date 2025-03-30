@@ -5,6 +5,8 @@ title: Journal - Imaginary CTF 2024
 
 *This is my first writeup regarding a ctf challenge.*
 
+---
+
 # PHP Source Code
 
 This was the source code of the php server. I do not know php so I could not see the obvious vulnerability.
