@@ -2,6 +2,8 @@
 title: My School Experience Made Me a Homeschooling Advocate
 ---
 
+From Classroom Confinement to Homeschooling Freedom: A Journey in Progress
+
 ## Introduction
 
 When I graduated high school, I didn’t feel triumphant—just relieved to escape a system that spent 15 years teaching me to memorize, obey, and conform. From nursery at age two-and-a-half to year 12, I attended one of my country’s top schools, where over 50% of students scored above 90% in ISC/ICSE exams. Yet, looking back, I see wasted time, crushed curiosity, and a one-size-fits-all machine that didn’t care what I could become. That’s why I’ve been pro-homeschooling ever since—a belief forged in classrooms I’d never wish on anyone else.
