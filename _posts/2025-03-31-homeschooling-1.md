@@ -1,10 +1,6 @@
 ---
-title: My School Experience Made Me a Homeschooling Advocate
+title: "Cracking Twitter’s CAPTCHA: A Guide"
 ---
-
-Why I have been always pro homeschooling since I graduated highschool what are the parts which seem challenging to me?
-
-___
 
 ## Introduction
 
