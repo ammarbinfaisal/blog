@@ -32,7 +32,7 @@ Homeschooling, to me, is the antidote. It ditches the cookie-cutter approach for
 
 ## Learning to Homeschool Better
 
-To make homeschooling work, I’m turning to experts. John Taylor Gatto’s *Dumbing Us Down* nails why schools stifle kids—his take on hidden control resonates with my notebook nightmares. John Holt’s *How Children Learn* promises a blueprint for tapping into natural curiosity, which I wish I’d had. And *The Well-Trained Mind* by Susan Wise Bauer offers a disciplined framework—perfect for tackling obedience issues without recreating school’s rigidity. I’ll read these, and try to understand how build a system that’s structured yet free, disciplined yet alive. My school years taught me what to reject; these books will show me what to create.
+To make homeschooling work, I’m turning to experts. John Taylor Gatto’s *Dumbing Us Down* nails why schools stifle kids—his take on hidden control resonates with my notebook nightmares. John Holt’s *How Children Learn* promises a blueprint for tapping into natural curiosity, which I wish I’d had. And *The Well-Trained Mind* by Susan Wise Bauer offers a disciplined framework—perfect for tackling obedience issues without recreating school’s rigidity. I’ll read these, and try to understand how to build a system that’s structured yet free, disciplined yet alive. My school years taught me what to reject; these books will show me what to create.
 
 ## Conclusion  
 
