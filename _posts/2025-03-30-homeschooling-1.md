@@ -1,5 +1,5 @@
 ---
-title: "Cracking Twitter’s CAPTCHA: A Guide"
+title: My School Experience Made Me a Homeschooling Advocate
 ---
 
 ## Introduction
