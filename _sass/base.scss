@@ -3,6 +3,15 @@
 @import "minimal-mistakes/skins/sunrise"; // skin
 @import "minimal-mistakes"; // main partials
 
-html, body {
-  font-family: "Noto Sans", sans-serif !important;
+@font-face {
+  font-family: "ETBookOSF";
+  src: url("../et-book-roman-old-style-figures.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "ETBookOSF", "Noto Sans", sans-serif !important;
+  background: #fffff8;
 }
