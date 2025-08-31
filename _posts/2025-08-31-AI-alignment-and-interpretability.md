@@ -9,7 +9,7 @@ Fast forward to 2025 and I came across [Situational Awareness](https://situation
 - Once that scale is reached, AGI will be within reach
 - This will likely trigger a rapid intelligence explosion that makes superalignment extremely difficult
 
-This led me into a rabbit hole of reading about [AI](https://ai-2027.com), [forecasts](https://www.lesswrong.com/posts/K2D45BNxnZjdpSX2j/ai-timelines), and [AI alignment](https://www.alignmentforum.org/). I then recalled the AI interpretability research I had first encountered back in 2023, which has since grown into a much deeper and more developed field.
+This led me into a rabbit hole of reading about [AI](https://ai-2027.com) [forecasts](https://www.lesswrong.com/posts/K2D45BNxnZjdpSX2j/ai-timelines), and [AI alignment](https://www.alignmentforum.org/). I then recalled the AI interpretability research I had first encountered back in 2023, which has since grown into a much deeper and more developed field.
 
 I am not very much an AI doomer. The x-risk from AGI seems to me to be [something blown out of proportion](https://www.lesswrong.com/w/ai-risk-skepticism). While reading alignment discussions, the thought crossed my mind: instead of worrying about alignment, why not focus on interpretability, which might in turn provide the tools needed to solve alignment? It turns out [Dario Amodei](https://www.darioamodei.com/) has expressed similar thoughts [regarding interpretability](https://www.darioamodei.com/post/the-urgency-of-interpretability), while [others strongly disagree with him](https://www.lesswrong.com/posts/PwnadG4BFjaER3MGf/interpretability-will-not-reliably-find-deceptive-ai).
 
