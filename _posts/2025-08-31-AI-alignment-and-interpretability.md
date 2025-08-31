@@ -1,5 +1,3 @@
-# AI Alignment & Interpretability
-
 _my thoughts on ai alignment and interpretability._
 
 In 2023, someone asked me to join their research group working on AI interpretability. At the time, I did not consider myself knowledgeable enough to do what I understood to be dissecting MLPs or other models.
