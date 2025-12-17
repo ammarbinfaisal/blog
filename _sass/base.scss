@@ -10,9 +10,8 @@
 
 // Override theme variables before imports
 $serif: "ETBookOSF", Georgia, Times, serif;
-$global-font-family: $serif;
-$header-font-family: $serif;
-$caption-font-family: $serif;
+$sans-serif: "ETBookOSF", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif-narrow: $sans-serif;
 $background-color: #fffff8;
 
 @import "minimal-mistakes/skins/sunrise"; // skin
