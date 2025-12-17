@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/sunrise"; // skin
-@import "minimal-mistakes"; // main partials
-
 @font-face {
   font-family: "ETBookOSF";
   src: url("../et-book-roman-old-style-figures.ttf") format("truetype");
@@ -11,11 +8,12 @@
   font-display: swap;
 }
 
-body {
-  font-family: "ETBookOSF", "Noto Sans", sans-serif;
-  background: #fffff8;
-}
+// Override theme variables before imports
+$serif: "ETBookOSF", Georgia, Times, serif;
+$global-font-family: $serif;
+$header-font-family: $serif;
+$caption-font-family: $serif;
+$background-color: #fffff8;
 
-code, pre {
-  font-family: monospace;
-}
+@import "minimal-mistakes/skins/sunrise"; // skin
+@import "minimal-mistakes"; // main partials
