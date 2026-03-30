@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "AI Lab — Artificial Intelligence [CSE401]"
+title: "---"
 permalink: /ai/
 classes: wide
 author_profile: false
