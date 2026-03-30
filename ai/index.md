@@ -13,6 +13,23 @@ toc_label: "Experiments"
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.key === ' ' && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) {
+    e.preventDefault();
+    document.body.classList.toggle('ai-hidden');
+  }
+});
+</script>
+
+<style>
+body.ai-hidden .page__content,
+body.ai-hidden .sidebar,
+body.ai-hidden .page__title {
+  visibility: hidden;
+}
+</style>
+
 ## Index
 
 | # | Experiment | Topics |
