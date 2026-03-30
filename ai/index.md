@@ -17,18 +17,10 @@ toc_label: "Experiments"
 document.addEventListener('keydown', function(e) {
   if (e.key === ' ' && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) {
     e.preventDefault();
-    document.body.classList.toggle('ai-hidden');
+    document.body.style.visibility = document.body.style.visibility === 'hidden' ? '' : 'hidden';
   }
 });
 </script>
-
-<style>
-body.ai-hidden .page__content,
-body.ai-hidden .sidebar,
-body.ai-hidden .page__title {
-  visibility: hidden;
-}
-</style>
 
 ## Index
 
