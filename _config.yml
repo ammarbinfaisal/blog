@@ -4,6 +4,7 @@ title: "ammarbinfaisal" # the name of your site, e.g. ACME Corp.
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: sunrise
 repository: "ammarbinfaisal/blog"
+date_format: "%b %-d, %Y"
 logo: "/assets/img.jpg"
 
 plugins:
@@ -37,7 +38,7 @@ defaults:
       toc: true
       toc_sticky: true
       classes: wide
-      show_date: false
+      show_date: true
       author_profile: true
       related: true
     # _pages
