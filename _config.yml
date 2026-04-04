@@ -40,7 +40,7 @@ defaults:
       classes: wide
       show_date: true
       author_profile: true
-      related: true
+      related: false
     # _pages
   - scope:
       path: ""
