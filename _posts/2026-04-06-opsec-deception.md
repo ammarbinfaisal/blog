@@ -120,13 +120,13 @@ The most sobering lesson from this survey is how consistently deception works. W
 
 <blockquote>
 
-historically how has obscurity or false information leak worked as an opsec strategy 
+historically how has obscurity or false information leak worked as an opsec strategy  <br>
 
-example
+example <br>
 
-- showing >=2 mutually exclusive scenarios as likely to an adversary tracking or spying on a group/individual - like forces mobilise at two locations both of which were not really going to do anything and something else was planned
+- showing >=2 mutually exclusive scenarios as likely to an adversary tracking or spying on a group/individual - like forces mobilise at two locations both of which were not really going to do anything and something else was planned <br>
 
-i am trying to describe this abstractly but you get the idea what patterni am trying to search for
+i am trying to describe this abstractly but you get the idea what patterni am trying to search for <br>
 
 i need to search for this pattern in millitary, spy agencies, criminal groups or any other entity (group/individual) which operates in secret and how they have used this in opsec   to create confusion or misleading their adversaries
 
