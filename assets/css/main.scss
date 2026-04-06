@@ -15,3 +15,15 @@ $sans-serif-narrow: $sans-serif;
 
 @import "minimal-mistakes/skins/sunrise";
 @import "minimal-mistakes";
+
+.page__date-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+.page__date-link:hover,
+.page__date-link:focus {
+  text-decoration-thickness: 0.12em;
+}

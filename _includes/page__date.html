@@ -1,0 +1,6 @@
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+{% if page.last_modified_at %}
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> {% if page.latest_diff_url %}<a class="page__date-link" href="{{ page.latest_diff_url }}" rel="nofollow noopener noreferrer">{% endif %}<time class="dt-published" datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: date_format }}</time>{% if page.latest_diff_url %}</a>{% endif %}</p>
+{% elsif page.date %}
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> {% if page.latest_diff_url %}<a class="page__date-link" href="{{ page.latest_diff_url }}" rel="nofollow noopener noreferrer">{% endif %}<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>{% if page.latest_diff_url %}</a>{% endif %}</p>
+{% endif %}

@@ -1,0 +1,64 @@
+#!/bin/sh
+
+set -eu
+
+posts=$(
+  git diff-tree --no-commit-id --name-only -r --diff-filter=ACMR HEAD -- _posts \
+    | grep '\.md$' || true
+)
+
+[ -n "$posts" ] || exit 0
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+remote_name=$(git config "branch.$branch.remote" || true)
+remote_name=${remote_name:-origin}
+remote_url=$(git remote get-url "$remote_name" 2>/dev/null || true)
+
+case "$remote_url" in
+  git@github.com:*)
+    repo_path=${remote_url#git@github.com:}
+    ;;
+  https://github.com/*)
+    repo_path=${remote_url#https://github.com/}
+    ;;
+  ssh://git@github.com/*)
+    repo_path=${remote_url#ssh://git@github.com/}
+    ;;
+  *)
+    exit 0
+    ;;
+esac
+
+repo_path=${repo_path%.git}
+repo_url="https://github.com/$repo_path"
+commit_sha=$(git rev-parse HEAD)
+
+hash_path() {
+  if command -v sha256sum >/dev/null 2>&1; then
+    printf '%s' "$1" | sha256sum | awk '{print $1}'
+    return
+  fi
+
+  if command -v shasum >/dev/null 2>&1; then
+    printf '%s' "$1" | shasum -a 256 | awk '{print $1}'
+    return
+  fi
+
+  return 1
+}
+
+printf '\nLatest GitHub diff links for changed posts (available after push):\n'
+
+printf '%s\n' "$posts" | while IFS= read -r post; do
+  [ -n "$post" ] || continue
+
+  url="$repo_url/commit/$commit_sha"
+  anchor=$(hash_path "$post" || true)
+
+  if [ -n "$anchor" ]; then
+    url="$url#diff-$anchor"
+  fi
+
+  printf '  %s\n' "$post"
+  printf '  %s\n' "$url"
+done
