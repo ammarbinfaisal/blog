@@ -6,9 +6,11 @@ classes: wide
 
 ## Who am I?
 
-A computer science enthusiast who likes compilers and infosec. This blog is a collection of my thoughts and experiences as I learn and grow in this field.
+jack of some trades, 
+master of none, struggling alone, 
+trying to save.. the intellect of mine, 
+from fading away, battling the tides
+of post-llm era, preparing myself, 
+for the post-literate age
 
-[[Twitter](https://x.com/ammarbinfaisal)] [[GitHub](https://github.com/ammarbinfaisal)] [[LinkedIn](https://www.linkedin.com/in/malik-ammar-faisal/)]
-
-
-
+[[GitHub](https://github.com/ammarbinfaisal)]

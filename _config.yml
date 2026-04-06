@@ -8,44 +8,44 @@ date_format: "%b %-d, %Y"
 logo: "/assets/img.jpg"
 
 plugins:
-  - jekyll-seo-tag
+    - jekyll-seo-tag
 
 author:
-  name     : "Malik Ammar Faisal"
-  avatar   : "/assets/img.jpg"
-  bio      : "developer, security enthusiast"
-  location : "New Delhi, India"
+    name: "Malik Ammar Faisal"
+    avatar: "/assets/img.jpg"
+    bio: "developer, security enthusiast"
+    location: "New Delhi, India"
 
 social:
-  type:  # Person or Organization (defaults to Person)
-  name:  # If the user or organization name differs from the site's name
-  links:
-    - "https://twitter.com/ammarbinfaisal"
-    - "https://github.com/ammarbinfaisal"
-    - "https://youtube.com/@ammarbinfaisal"
+    type: # Person or Organization (defaults to Person)
+    name: # If the user or organization name differs from the site's name
+    links:
+        - "https://twitter.com/ammarbinfaisal2"
+        - "https://github.com/ammarbinfaisal"
+        - "https://youtube.com/@ammarbinfaisal"
 
 twitter:
-  username: 0xz4h1d
-  card: summary
+    username: ammarbinfaisal2
+    card: summary
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: posts
-      toc: true
-      toc_sticky: true
-      classes: wide
-      show_date: true
-      author_profile: true
-      related: false
-    # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
+    # _posts
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: posts
+          toc: true
+          toc_sticky: true
+          classes: wide
+          show_date: true
+          author_profile: true
+          related: false
+      # _pages
+    - scope:
+          path: ""
+          type: pages
+      values:
+          layout: single
+          classes: wide
+          author_profile: true
