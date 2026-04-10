@@ -13,4 +13,4 @@ from fading away, battling the tides <br>
 of post-llm era, preparing myself, <br>
 for the post-literate age <br>
 
-[[GitHub](https://github.com/ammarbinfaisal)]
+[[GitHub](https://github.com/ammarbinfaisal)] [[RSS](/rss.xml)]
