@@ -1,5 +1,6 @@
 ---
 title: Journal - Imaginary CTF 2024
+published: false
 ---
 
 
