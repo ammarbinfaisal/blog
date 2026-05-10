@@ -1,5 +1,6 @@
 ---
 title: Staged conflicts in modern history
+published: false
 ---
 
 *Having followed [EvanWritesOnX](https://x.com/EvanWritesOnX/) since 2025 and finding him consistent in his approach, I was wondering how many staged theaters have been there post-WW2. So I made claude research this.*
