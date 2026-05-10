@@ -1,5 +1,6 @@
 ---
 title: Operations Security and the Tactics of Deception
+published: false
 ---
 
 claude's research on this topic.
