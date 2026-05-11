@@ -4,7 +4,7 @@ title: "Ammar's Blog"
 classes: wide
 ---
 
-## Who am I?
+## who am I?
 
 jack of some trades, <br>
 master of none, struggling alone, <br>
@@ -13,14 +13,14 @@ from fading away, battling the tides <br>
 of post-llm era, preparing myself, <br>
 for the post-literate age <br>
 
-## Old Bookmarks
+## old bookmarks
 
 my curiosity made me bookmark them, and irresoluteness made me forget about their existence <br>
 
 - [Computers](https://binfaisal-ammar.raindrop.page/cs-38819443)
 - [Linguistics](https://binfaisal-ammar.raindrop.page/linguistics-38819467)
 
-<br>
+## you can find me on
 
 
 [[GitHub](https://github.com/ammarbinfaisal)] [[Substack](https://ammarbinfaisal.substack.com)] [[RSS](/rss.xml)]
