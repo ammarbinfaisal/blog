@@ -2,15 +2,16 @@
 ---
 
 @font-face {
-  font-family: "ETBookOSF";
-  src: url("../et-book-roman-old-style-figures.ttf") format("truetype");
-  font-weight: 400;
+  font-family: "Quicksand";
   font-style: normal;
+  font-weight: 300 700;
   font-display: swap;
+  src: url("https://github.com/google/fonts/raw/main/ofl/quicksand/Quicksand%5Bwght%5D.ttf")
+    format("truetype");
 }
 
-$serif: "ETBookOSF", Georgia, Times, serif;
-$sans-serif: "ETBookOSF", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif: "Quicksand", Georgia, Times, serif;
+$sans-serif: "Quicksand", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $sans-serif-narrow: $sans-serif;
 
 @import "minimal-mistakes/skins/sunrise";
