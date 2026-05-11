@@ -2,6 +2,9 @@
 title: Resources to study Compilers/PLs
 ---
 
+Some Resources I gathered when I was studying how programming languages work, while working on [Sahl](https://github.com/ammarbinfaisal/sahl)
+
+---
 
 ## Basics
 - [Crafting Interpreters](https://craftinginterpreters.com/)
