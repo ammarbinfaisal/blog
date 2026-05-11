@@ -13,4 +13,14 @@ from fading away, battling the tides <br>
 of post-llm era, preparing myself, <br>
 for the post-literate age <br>
 
+## Old Bookmarks
+
+my curiosity made me bookmark them, and irresoluteness made me forget about their existence <br>
+
+- [Computers](https://binfaisal-ammar.raindrop.page/cs-38819443)
+- [Linguistics](https://binfaisal-ammar.raindrop.page/linguistics-38819467)
+
+<br>
+
+
 [[GitHub](https://github.com/ammarbinfaisal)] [[Substack](https://ammarbinfaisal.substack.com)] [[RSS](/rss.xml)]
