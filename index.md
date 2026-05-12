@@ -23,7 +23,7 @@ my curiosity made me bookmark them, and irresoluteness made me forget about thei
 ## you can find me on
 
 - [GitHub](https://github.com/ammarbinfaisal)
-- [Substack](https://ammarbinfaisal.substack.com))
+- [Substack](https://ammarbinfaisal.substack.com)
 - [Telegram Channel](https://telegram.me/quran_recitation_clips)
 - [Youtube Channel](https://youtube.com/@ammarbinfaisal)
 - [Instagram](https://instagram.com/ammarbinfaisal) - _do not follow_
