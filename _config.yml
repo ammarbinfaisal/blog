@@ -13,7 +13,7 @@ plugins:
 author:
     name: "Malik Ammar Faisal"
     avatar: "/assets/img.jpg"
-    bio: "a muslim, a sunni, a salafi - in shaa' Allaah"
+    bio: "a muslim, a sunni, a salafi<br> - in shaa' Allaah"
     location: "India"
 
 social:
