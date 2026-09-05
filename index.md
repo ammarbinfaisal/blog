@@ -18,4 +18,4 @@ for the post-literate age <br>
 - [GitHub](https://github.com/ammarbinfaisal)
 - [Substack](https://ammarbinfaisal.substack.com)
 - [Telegram Channel](https://telegram.me/quran_recitation_clips)
-- Privately Message Me on Session - `05a381b5ada2f4da2cbcda17575090b27665e8c51c3131707f5612701839f0f057`
+- Privately Message Me on [Session](https://getsession.org/) - `05a381b5ada2f4da2cbcda17575090b27665e8c51c3131707f5612701839f0f057`
