@@ -13,19 +13,9 @@ from fading away, battling the tides <br>
 of post-llm era, preparing myself, <br>
 for the post-literate age <br>
 
-## old bookmarks
-
-my curiosity made me bookmark them, and irresoluteness made me forget about their existence <br>
-
-- [Computers](https://binfaisal-ammar.raindrop.page/cs-38819443)
-- [Linguistics](https://binfaisal-ammar.raindrop.page/linguistics-38819467)
-
 ## you can find me on
 
 - [GitHub](https://github.com/ammarbinfaisal)
 - [Substack](https://ammarbinfaisal.substack.com)
 - [Telegram Channel](https://telegram.me/quran_recitation_clips)
-- [Youtube Channel](https://youtube.com/@ammarbinfaisal)
-- [Instagram](https://instagram.com/ammarbinfaisal) - _do not follow_
-- [Twitter](https://x.com/ammarbinfaisal2) - _do not follow_
-- [RSS](https://ammarfaisal.me/rss.xml)
+- Privately Message Me on Session - `05a381b5ada2f4da2cbcda17575090b27665e8c51c3131707f5612701839f0f057`
